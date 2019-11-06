@@ -1,7 +1,7 @@
 %% Clear Workspace and close all files, to run the new test %%
 clear all; close all; clc;
 load Isolet.dat
-%% Random Permutate the array, to shuffle the rows and run relieff to compute the Main Features%%
+%% Run relieff to compute the Main Features%%
 ranks = relieff(Isolet(:,1:end-1),Isolet(:,end), 200, 'method','classification');
 %% Pre-processing of data %%
 %~ Check for NaN ~%
