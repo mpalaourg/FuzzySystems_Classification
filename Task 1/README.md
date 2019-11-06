@@ -10,7 +10,7 @@ This is an <i>experimental</i> application developed as part of the course "Fuzz
 </p>
 
 <p align="justify">
-The goal is to find the best model parameters to classify the Avila dataset. To this end 5 models were initialized by genifs2 and tested, where:
+The goal is to find the best model parameters to classify the samples of the Avila dataset. To this end 5 models were initialized by genifs2 and tested, where:
 <ul>
   <li>Task Model 1 -> (Squash Factor = 0.5 | radii = 1.00) => NumberOfRules = 4. </li>
   <li>Task Model 2 -> (Squash Factor = 0.5 | radii = 0.80) => NumberOfRules = 5. </li>
